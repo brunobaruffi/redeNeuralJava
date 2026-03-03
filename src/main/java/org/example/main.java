@@ -62,7 +62,7 @@ public class main {
         double[] output2 = rede.propagar_FeedForward(testInput2);
         System.out.printf("Peso: 175g, Textura: Rugosa (1) -> Saída: %.4f (Esperado: Laranja - 1)%n", output2[0]);
 
-        // Mais exemplos para testarrr
+        // Mais exemplos para testarrrr
         double[] testInput3 = { (145.0 - 130.0) / (180.0 - 130.0), 0.0 }; // Peso 145g -> (15/50)=0.3, textura 0.0
         double[] output3 = rede.propagar_FeedForward(testInput3);
         System.out.printf("Peso: 145g, Textura: Lisa (0) -> Saída: %.4f (Esperado: Maçã - 0)%n", output3[0]);
